@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Source+Code+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+body {
+    background: #ecf0f3;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: auto;
+    border-radius: 1.25rem;
+    background-color: #ecf0f3;
+    box-shadow:
+        13px 13px 20px #cbced1,
+        -13px -13px 20px #fff;
+}
+
+.card .icon img {
+    border-radius: 1.25rem;
+    background: #fff;
+    padding: 3px;
+}
+
+.card .icon {
+    margin: 10px 10px;
+    color: #555;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow:
+        inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #fff;
+}
